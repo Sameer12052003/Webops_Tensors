@@ -1,0 +1,74 @@
+
+.cards{
+    display: grid;
+    gap : 30px 30px;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto ;
+    
+    
+}    
+  .img{
+    width : 250px;
+    height : 250px;
+    border-top-left-radius:8mm ;
+    border-top-right-radius:8mm ;
+  }
+.card{
+   
+   border : 4px solid blueviolet; 
+   border-radius: 8mm;  
+   width: 250px;
+   margin : 10px;
+   
+   background-color :rgb(231, 227, 231);
+   
+}
+ .height, .gender, .birthYear, .mass{
+    font-size: 20px;
+    text-align: center;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+}
+.heading{
+    
+    text-align: center;
+    font-size: 50px;
+    color: rgb(231, 227, 231);
+    padding: 5px;
+}   
+.body{
+    background-color:rgb(9, 8, 61) ;
+}
+@media screen and (max-width :950px) {
+    .img{
+         width : 250px;
+    }
+    .cards{
+        
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+   }
+   .card{
+    width : 250px;
+
+   }
+}
+@media screen and (max-width: 700px) {
+    .img{
+        width : 250px ;
+   }
+   .cards{
+       
+       display: grid;
+       grid-template-columns: auto ;
+       
+  }
+  .card{
+   width : 250px ;
+
+  }
+}
+                                                                                                                                                                                                                                                                                                                                                   
